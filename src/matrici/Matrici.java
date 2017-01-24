@@ -8,7 +8,7 @@ package matrici;
 
 /**
  *
- * @author Tiziano Toffenetti
+ * @author Giuseppe Veneziano
  */
 public class Matrici {
 
@@ -16,7 +16,7 @@ public class Matrici {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Matrice m = new Matrice(10, 10);
+        Matrice m = new Matrice(7, 7);
         
         m.fillRandom();
         System.out.println(m);

@@ -8,8 +8,6 @@ package matrici;
 
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  *
@@ -51,7 +49,7 @@ public class Matrice {
                 fw.write(this.toString());
                 fw.close();
             } catch (IOException exc) {
-                Logger.getLogger(Matrice.class.getName()).log(Level.SEVERE, null, exc);
+                System.out.println("Le eccezioni sono: " + exc);
             }
     }   
         
